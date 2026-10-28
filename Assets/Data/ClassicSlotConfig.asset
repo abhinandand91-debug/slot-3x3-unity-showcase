@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95602988729dc492bb194cd2808f5ddf, type: 3}
+  m_Name: ClassicSlotConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Slot3x3.SlotConfig
+  symbols:
+  - name: A
+    sprite: {fileID: 21300000, guid: e577c5989a4744bcab6c2fe6847d2584, type: 3}
+    blur: {fileID: 21300000, guid: f74643d0234e948008a551881bac3a0b, type: 3}
+    wildSubstitute: 1
+  - name: J
+    sprite: {fileID: 21300000, guid: 623e6059a97e643d6b2372bd680cfd04, type: 3}
+    blur: {fileID: 21300000, guid: c1a7ccb78ea70410cb862905acd5c083, type: 3}
+    wildSubstitute: 1
+  - name: K
+    sprite: {fileID: 21300000, guid: e05d538fafa4f44aa884dd43da0a3c43, type: 3}
+    blur: {fileID: 21300000, guid: bdf07249543e048bcb84de6d49f149b0, type: 3}
+    wildSubstitute: 1
+  - name: Q
+    sprite: {fileID: 21300000, guid: b47864205ea3447339ed60bb5d04210d, type: 3}
+    blur: {fileID: 21300000, guid: 9e12dd1aa989a417182b43af31091a2c, type: 3}
+    wildSubstitute: 1
+  - name: 10
+    sprite: {fileID: 21300000, guid: 600d69bbc36184d5ebf650e6a32f357a, type: 3}
+    blur: {fileID: 21300000, guid: c1bc8d3fd3cff44d1b4aef5c6130d4e3, type: 3}
+    wildSubstitute: 1
+  - name: 7
+    sprite: {fileID: 21300000, guid: 51858cf095b1b43b9bc30785460d13f8, type: 3}
+    blur: {fileID: 21300000, guid: d942c5209de5a4fa9b38476983797621, type: 3}
+    wildSubstitute: 1
+  - name: 1Bar
+    sprite: {fileID: 21300000, guid: 85f91c155f5b2408f9365734df7654ab, type: 3}
+    blur: {fileID: 21300000, guid: 32eda496ae32d4866917da2f7f8bbeb5, type: 3}
+    wildSubstitute: 1
+  - name: 2Bar
+    sprite: {fileID: 21300000, guid: 5f5edb417f4544d908ee05ef93ab767d, type: 3}
+    blur: {fileID: 21300000, guid: 637a7f8bf95d24d128c274503a74c87a, type: 3}
+    wildSubstitute: 1
+  - name: 3Bar
+    sprite: {fileID: 21300000, guid: ce37083383974428cb670cd60861aa1f, type: 3}
+    blur: {fileID: 21300000, guid: a2ab49aa1ca46477482fdf8fefe8e426, type: 3}
+    wildSubstitute: 1
+  - name: Bell
+    sprite: {fileID: 21300000, guid: 0771eb222c5de4b6b9132f2b94dac9df, type: 3}
+    blur: {fileID: 21300000, guid: 44458f17ee4cd42e99cfaba40027ac4f, type: 3}
+    wildSubstitute: 1
+  - name: FreeSpin
+    sprite: {fileID: 21300000, guid: c6a9574724f1341678a574219e447e44, type: 3}
+    blur: {fileID: 21300000, guid: 71c3e9e05997b4288b03c260565684ec, type: 3}
+    wildSubstitute: 0
+  - name: Scatter
+    sprite: {fileID: 21300000, guid: 716da20ef92614ed89772ab7e6c18998, type: 3}
+    blur: {fileID: 21300000, guid: ddfe294ee8d404be6865e5807aa29441, type: 3}
+    wildSubstitute: 0
+  - name: Wild
+    sprite: {fileID: 21300000, guid: c0c4e562627e9464cb86ffd9ffd5e1cf, type: 3}
+    blur: {fileID: 21300000, guid: 75ab5ae47b7b3447d83dc3b9043e8859, type: 3}
+    wildSubstitute: 0
+  - name: Jackpot
+    sprite: {fileID: 21300000, guid: f4d7b8ea0184b4b80abffa6ed790d9bc, type: 3}
+    blur: {fileID: 21300000, guid: 1a11c89497ab044e89ecab90077975b3, type: 3}
+    wildSubstitute: 0
+  scatterId: 11
+  wildId: 12
+  useWild: 1
+  useScatter: 1
+  wildInFirstPosition: 0
+  reels:
+  - order: 00000000010000000200000003000000010000000700000004000000050000000900000006000000080000000a0000000b0000000c0000000d0000000400000009000000
+    spinStartDelay: 0.1
+    laps: 3
+    randomStart: 1
+  - order: 00000000070000000100000002000000030000000400000006000000090000000a000000000000000b0000000c0000000d000000040000000d000000050000000800000000000000
+    spinStartDelay: 0.2
+    laps: 3
+    randomStart: 1
+  - order: 000000000100000008000000020000000300000007000000040000000500000006000000090000000a000000000000000b0000000c0000000d000000040000000d00000000000000
+    spinStartDelay: 0.3
+    laps: 3
+    randomStart: 1
+  tilesPerReel: 30
+  payTable:
+  - symbols: 000000000000000000000000
+    pay: 10
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 010000000100000001000000
+    pay: 15
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 020000000200000002000000
+    pay: 20
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 030000000300000003000000
+    pay: 25
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 040000000400000004000000
+    pay: 30
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 060000000600000006000000
+    pay: 120
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 070000000700000007000000
+    pay: 130
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 080000000800000008000000
+    pay: 150
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 050000000500000005000000
+    pay: 160
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 090000000900000009000000
+    pay: 170
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0a0000000a0000000a000000
+    pay: 0
+    freeSpins: 3
+    payMult: 1
+    freeSpinsMult: 1
+  - symbols: 0c0000000c0000000c000000
+    pay: 200
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+  scatterPayTable:
+  - scattersCount: 5
+    pay: 0
+    freeSpins: 0
+    payMult: 1
+    freeSpinsMult: 1
+    levelProgress: 100
+  inRotTime: 0.15
+  inRotAngle: 7
+  outRotTime: 0.15
+  outRotAngle: 7
+  mainRotateTime: 3
+  mainRotateTimeRandomize: 10
+  startCoins: 500
+  maxLineBet: 20
+  defaultLineBet: 1
+  multiplyWinByLineBet: 1
+  multiplyFreeSpinsByLineBet: 0
+  useHold: 1
+  maxHeldReels: 2
+  holdBetMultipliers: 010000000200000004000000
+  dailyRewards: f4010000e8030000dc050000c4090000a00f00007017000010270000
+  dailyRewardIntervalHours: 24
+  allowDevRefill: 1
+  devRefillCoins: 1000
+  devAddCoins: 5000
+  loseSpinLevelProgress: 0.5
+  winSpinLevelProgress: 2
+  bigWinMinCoins: 5000
+  jackpotSymbolId: 13
+  useMegaJackpot: 1
+  megaJackpotCount: 5
+  megaJackpotStart: 1000
+  jackpotIncrement: 1

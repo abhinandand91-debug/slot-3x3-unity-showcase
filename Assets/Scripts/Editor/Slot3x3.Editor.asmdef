@@ -1,0 +1,19 @@
+{
+    "name": "Slot3x3.Editor",
+    "rootNamespace": "Slot3x3.EditorTools",
+    "references": [
+        "Slot3x3.Runtime",
+        "Unity.ugui"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
